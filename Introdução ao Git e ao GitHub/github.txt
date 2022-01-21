@@ -1,0 +1,14 @@
+github
+
+git config --list (ver configurações feitas)
+git config --global --unset user.email (tira o email configurado)
+
+git remote add origin endereçoHtml (link do repositório remoto)
+
+git remote -v (mostra os repositórios remotos)
+
+git push origin master (manda repositório da máquina para o github)
+
+git pull origin master (puxa arquivo que já está no github)
+
+git clone urlGithub (copiar repositório do github para minha máquina)

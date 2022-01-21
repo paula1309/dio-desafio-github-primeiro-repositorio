@@ -1,0 +1,37 @@
+git status (tras o status, unmodifyed, untracked..)
+
+git init (iniciar o repositório do git)
+
+git add (mover arquivos e versionamento):
+- git add nomeArquivo
+- git add *
+- git add .
+
+git commit (criar commit):
+- git commit -m "mensagem"
+
+ls -a (mostra elementos ocultos)
+
+git config --global (configuração global)
+
+git restore --staged <file>
+
+*Criando repositório
+ls (listar)
+cd workspace/ (entrar na pasta)
+mkdir livro-receitas/ (cria pasta)
+cd livro-receitas/ (entrar na pasta)
+
+git init (iniciar repositório) -> cria .git/
+ls -a (mostra elementos ocultos)
+
+*Configuração Inicial
+git config --global user.email "email"
+git config --global user.name Nome
+
+Adicionando arquivo
+git add *
+
+git commit -m "commit inicial"
+
+
